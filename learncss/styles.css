@@ -1,0 +1,40 @@
+
+h1 {
+    color: red;
+  }
+
+h1 {
+  color: aliceblue;
+}
+
+/* Stylying based on classes, where different elements ccan be styled differently based on their class*/
+span.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li.special {
+  color: blue;
+  font-weight: bold;
+}
+li em {
+  color: rebeccapurple;
+  font-size: 23;
+  
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
