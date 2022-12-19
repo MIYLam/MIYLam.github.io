@@ -1,10 +1,13 @@
-
+p,
+h1 {
+  text-align: center;
+}
 h1 {
     color: red;
   }
 
 h1 {
-  color: aliceblue;
+  color: rgb(4, 41, 73); /* this opne appears over the first onedue to cascading priority */
 }
 
 /* Stylying based on classes, where different elements ccan be styled differently based on their class*/
@@ -21,6 +24,9 @@ li em {
   color: rebeccapurple;
   font-size: 23;
   
+}
+#coolthing{
+  color: aquamarine;
 }
 
 h1 + p {

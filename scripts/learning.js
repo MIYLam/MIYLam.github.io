@@ -31,7 +31,6 @@ let admin = name;
 let boolFromQuestionMark = (name == "John") ? true:false;
 alert(boolFromQuestionMark);
 
-
 if ("0"){ //Will be interpreted as false if string is empty, and is not converted to the 0 number here 
     let message = "Type conversion";
     alert(message);
